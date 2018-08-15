@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 1000px;
+	height: auto;
+	margin:  0 auto;
+}
+.topbar{
+	width: 1000px;
+	height: 4px;
+	background-color: #fcc508;
+	
+}
