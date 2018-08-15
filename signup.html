@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/stars.css">
+	<title>Ecommerce</title>
+</head>
+<body background="C:\Users\HP\Desktop\Ecommerce\jjjj.jpg">
+ <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<nav class="navbar navbar-toggleable-md navbar-light bg-white" style="width: 100%; height: auto;background: #9575CD;">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" style="color: white"><h3>
+MOBILE STORE</h3> </a>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Mobiles
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Samsung</a>
+          <a class="dropdown-item" href="vivo.html">Vivo</a>
+          <a class="dropdown-item" href="mi.html">Mi</a>
+          <a class="dropdown-item" href="iphone.html">iPhone</a>
+        </div>
+      </li></li>
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="Add.html">Add To Cart <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="payment.html">Payment Page<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="usereview.html">User Review<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="contactus.html">Contact Us<span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="signup.html">Sign Up<span class="sr-only">(current)</span></a>
+      </li>
+      
+    </ul>
+    
+    &nbsp;<button id="b2" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="height: 38px; width: 80px; font-size: 15px; margin-top: 1px;">
+  Sign In
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header"><legend>&nbsp;&nbsp;Sign In Here</legend><br>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <form method="post" style="margin-left: 2px; margin-right: 2px;">
+  Username:<sup>*</sup><br><input type="text" name="Username" id="t1" autocomplete="=off" size="40" required placeholder="Enter the Username"><br><br>
+  Password:<sup>*</sup> <br><input type="Password" name="pass" id="t2" size="40" required autocomplete="off" placeholder="Enter the Password"><br><br>
+ 
+  </textarea>
+ </form>
+      </div>
+
+      <div class="modal-footer">
+     <button type="submit" onclick="func()" class="btn btn-outline-success" style="margin-left: auto; margin-right: auto;">Sign In</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</nav>
+ 
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+       
+             function validate() {
+               var x=document.getElementById("a1").value;
+               var y=document.getElementById("a2").value;
+               var z=document.getElementById("a3").value;
+               var a=document.getElementById("a4").value;
+               var b=document.getElementById("a5").value;
+               var c=document.getElementById("a6").value;
+               if(x!="" & y!="" & z!="" & a!="" & b!="" & c!="" & b==c)
+               {
+                 
+                alert(" SUCCESSFULLY SIGNED UP");
+            
+               }
+               else
+               {
+                 alert("Please Sign Up properly or password didn't match");
+              
+               }
+
+              }
+            function func() {
+		 var x=document.getElementById("t1").value;
+          var y=document.getElementById("t2").value;
+          if(x!=="" & y!=="")
+   {
+    alert("SUCCESSFULLY SIGNED IN");
+    
+   }
+   else
+   {
+    alert("Kindly Sign in properly");
+
+   }
+}
+      </script>
+  <center>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><b>Sign Up Here</b></h1>
+  </div>
+</div>
+
+ <form method="post" style="margin-left: 2px; margin-right: 2px;">
+  Name:<sup>*</sup><br> <input type="text" name="fname" id="a1" autocomplete="on" size="40" required placeholder="Enter name here"><br><br>
+  E-Mail ID:<sup>*</sup><br> <input type="email" name="email" id="a2" autocomplete="on" size="40" required placeholder="abc@gmail.com"><br><br>
+  Phone:<sup>*</sup><br> <input type="text" name="phone" size="40" id="a3" required placeholder="Enter your phone number"><br><br>
+  Username:<sup>*</sup><br><input type="text" name="Username" autocomplete="=on" id="a4" size="40" required placeholder="Enter the Username"><br><br>
+  Password:<sup>*</sup> <br><input type="Password" name="pass" size="40" required autocomplete="on" id="a5" placeholder="Enter the Password" ><br><br>
+  Confirm Password:<sup>*</sup> <br><input type="Password" name="pass" size="40" required autocomplete="on" id="a6" placeholder="Enter the Password"><br><br>
+  
+  
+  </textarea>
+ </form>
+  <button type="button" onclick="validate()" class="btn btn-primary" style="margin-left: auto; margin-right: auto; ">Sign Up</button>
+ </body>
+ </html>
